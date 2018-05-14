@@ -1,0 +1,21 @@
+{
+  "name": "dy7338/aliyun-php-sdk-afs",
+  "description": "阿里云验证码sdk",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "王小乐",
+      "email": "491286281@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "dy7338/aliyun-php-sdk-core": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "afs\\": "src/afs"
+    }
+  }
+}
