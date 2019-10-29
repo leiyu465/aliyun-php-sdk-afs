@@ -5,13 +5,12 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "王小乐",
-      "email": "491286281@qq.com"
+      "name": "高原",
+      "email": "yuan.gao@13un.com"
     }
   ],
   "require": {
-    "php": ">=5.3",
-    "leiyu465/aliyun-php-sdk-core": "dev-master"
+    "php": ">=5.3"
   },
   "autoload": {
     "psr-4": {
