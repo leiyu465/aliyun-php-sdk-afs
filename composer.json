@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.3",
+    "lokielse/aliyun-open-api-core": "^1.0"
   },
   "autoload": {
     "psr-4": {
