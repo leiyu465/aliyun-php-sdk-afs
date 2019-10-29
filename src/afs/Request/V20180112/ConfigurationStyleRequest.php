@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class ConfigurationStyleRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class ConfigurationStyleRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

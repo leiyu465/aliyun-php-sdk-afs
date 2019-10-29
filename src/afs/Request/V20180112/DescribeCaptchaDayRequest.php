@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class DescribeCaptchaDayRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class DescribeCaptchaDayRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

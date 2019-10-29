@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class DescribeCaptchaIpCityRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class DescribeCaptchaIpCityRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

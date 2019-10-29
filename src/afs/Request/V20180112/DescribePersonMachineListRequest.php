@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class DescribePersonMachineListRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class DescribePersonMachineListRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

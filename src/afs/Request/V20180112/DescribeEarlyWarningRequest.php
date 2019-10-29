@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class DescribeEarlyWarningRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class DescribeEarlyWarningRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

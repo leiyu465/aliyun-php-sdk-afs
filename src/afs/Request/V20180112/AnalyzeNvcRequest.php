@@ -19,7 +19,10 @@
  */
 namespace afs\Request\V20180112;
 
-class AnalyzeNvcRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+
+class AnalyzeNvcRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

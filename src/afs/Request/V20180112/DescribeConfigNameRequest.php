@@ -19,7 +19,9 @@
  */
 namespace afs\Request\V20180112;
 
-class DescribeConfigNameRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class DescribeConfigNameRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
