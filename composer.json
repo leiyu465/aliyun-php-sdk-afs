@@ -1,5 +1,5 @@
 {
-  "name": "dy7338/aliyun-php-sdk-afs",
+  "name": "leiyu465/aliyun-php-sdk-afs",
   "description": "阿里云验证码sdk",
   "type": "library",
   "license": "MIT",
@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=5.3",
-    "dy7338/aliyun-php-sdk-core": "dev-master"
+    "leiyu465/aliyun-php-sdk-core": "dev-master"
   },
   "autoload": {
     "psr-4": {
