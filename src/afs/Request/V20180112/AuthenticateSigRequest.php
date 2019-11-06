@@ -21,7 +21,7 @@ namespace afs\Request\V20180112;
 
 use Aliyun\Core\RpcAcsRequest;
 
-class AuthenticateSigRequest extends \RpcAcsRequest
+class AuthenticateSigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
